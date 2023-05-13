@@ -24,6 +24,7 @@
     padding: 0.5rem;
     border: 2px solid rgb(200,200,200);
 }
+
 img { max-width: 100%;}
 
 html, 
@@ -46,12 +47,16 @@ h1,h2,h3,h4,h5,h6,p, a {
 
 
 .padded    { padding: 5%;    }
-.padded-1  { padding: 1rem;  }
-.padded-2  { padding: 2rem;  }
+.padded-1,
+.grid.padded-1  { padding: 1rem;  }
+
+.padded-2,
+.grid.padded-2  { padding: 2rem;  }
 
 .margin-b-0 { margin-bottom: 0; }
 
 
+.bg-light { background-color: #F8F6F4;}
 .bg-featured { background-color: #018ca2;  }
 .bg-dark     { background-color: #24282B;  }
 
@@ -61,6 +66,12 @@ h1,h2,h3,h4,h5,h6,p, a {
 .left   { text-align: left; }
 .center { text-align: center; }
 .right  { text-align: right; }
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/zen-studio-1.jpg');
+}
 
 
 /* General typography & universal styles  */
