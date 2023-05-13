@@ -5,10 +5,9 @@
     - Lato - Links and specific elements
 - Colors:
     - beige - F8F6F4
-    - pink - FFA995
+    - pink - 59186
 - Map: [https://snazzymaps.com/style/115413/light-and-beige](https://snazzymaps.com/style/115413/light-and-beige)
 
-- change the fonts
 - change the back groud images
 - typography styles 
  - genreal style
@@ -73,18 +72,13 @@ Re-usable Utiity Classes  */
 .bg-dark     { background-color: #24282B;  }
 
 
-.text-featured {color: #FFA995;}
+.text-featured {color: #f59186;}
 
 
 .left   { text-align: left; }
 .center { text-align: center; }
 .right  { text-align: right; }
 
-.bg-image {
-    background-size: cover;
-    background-position: center;
-    background-image: url('/images/zen-studio-1.jpg');
-}
 
 
 /* General typography & universal styles  */
@@ -128,3 +122,15 @@ margin-bottom: 0;
 /* Header & Footer */
 
 /* Images & Background Images */
+
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/zen-studio-1.jpg');
+}
+
+.bg-stone {background-image: url('/images/stone.png'); }
+.bg-leaves { background-image: url('/images/zen-studio-1.jpg'); }
+.bg-venue { background-image: url('/images/zen-studio-3.jpg'); }
+.bg-map { background-image: url('/images/light-colored-map.png'); }
