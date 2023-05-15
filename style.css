@@ -146,8 +146,10 @@ a {
 /* Header & Footer */
 
 footer {
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.rem;
     color: rgb(125,120,120);
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
 }
 
 /* Images & Background Images */
@@ -179,10 +181,19 @@ footer {
 
 @media( max-width: 48em) {
     .text-xxl { font-size: 6.5rem; }
+    .text-xl { font-size : 3.5rem; }
+    .text-lg { font-size: 2.5rem;}
+    .sm-block { display: block;}
 }
 
 /* Gridlex extrasmall media queries */
 
-@media( max-width: 48em) {
-    .text-xxl { font-size: 2.5rem; }
+@media( max-width: 36em) {
+    .text-xxl { font-size: 6.5rem; }
+    .text-xl { font-size : 2.5rem; }
+    .text-lg { font-size: 2.5rem; } 
+}
+
+@media(max-width: 25em) {
+    .text-xxl { font-size: 2.5rem;}
 }
