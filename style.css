@@ -174,3 +174,15 @@ footer {
     border-top-left-radius: 20rem;
     border-top-right-radius: 20rem;
 }
+
+/* Gridlex small media queries */
+
+@media( max-width: 48em) {
+    .text-xxl { font-size: 6.5rem; }
+}
+
+/* Gridlex extrasmall media queries */
+
+@media( max-width: 48em) {
+    .text-xxl { font-size: 2.5rem; }
+}
